@@ -45,7 +45,7 @@ Use a TensorFlow/Python combination supported by your operating system. If local
 From the project root:
 
 ```bash
-streamlit run app/app.py
+
 ```
 
 Streamlit will print a local URL, normally `http://localhost:8501`.
