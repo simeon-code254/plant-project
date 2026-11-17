@@ -1,0 +1,36 @@
+{
+  "ranking_metric": "macro_f1",
+  "best_model": "ResNet50",
+  "results": [
+    {
+      "Model": "ResNet50",
+      "Accuracy": 0.9373385013,
+      "Precision": 0.9389640596,
+      "Recall": 0.9358028624,
+      "F1": 0.9359461858,
+      "train_seconds": 803.664232947,
+      "inference_seconds": 16.914518515,
+      "model_size_bytes": 95391873
+    },
+    {
+      "Model": "MobileNetV2",
+      "Accuracy": 0.9144056848,
+      "Precision": 0.9201156746,
+      "Recall": 0.9040627311,
+      "F1": 0.9101939649,
+      "train_seconds": 516.358666467,
+      "inference_seconds": 10.250470665,
+      "model_size_bytes": 22098571
+    },
+    {
+      "Model": "Custom CNN",
+      "Accuracy": 0.8727390181,
+      "Precision": 0.8597274767,
+      "Recall": 0.8620702818,
+      "F1": 0.8570006545,
+      "train_seconds": 849.393001881,
+      "inference_seconds": 5.122111591,
+      "model_size_bytes": 4798977
+    }
+  ]
+}

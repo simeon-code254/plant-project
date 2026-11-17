@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets and large archives
+PlantVillage.zip
+PlantVillage/
+*.zip
+*.tar.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configs
+.vscode/
+.idea/
