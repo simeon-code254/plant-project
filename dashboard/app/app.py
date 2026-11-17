@@ -181,6 +181,7 @@ def all_dataset_image_paths() -> list[str]:
         str(path) for path in DATASET_ROOT.rglob("*")
         if path.is_file()
         and path.suffix.lower() in IMAGE_EXTENSIONS
+        and "PlantVillage/PlantVillage" not in str(path).replace("\\", "/")
     )
 
 
